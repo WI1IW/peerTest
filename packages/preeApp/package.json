@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "lib/preeApp.js",
   "peerDependencies": {
-    "@mpmaa/utils": "^1.1.0"
+    "@mpmaa/utils": "link:../utils"
   },
   "devDependencies": {
     "@mpmaa/utils": "link:../utils"
