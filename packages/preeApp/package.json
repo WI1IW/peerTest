@@ -1,0 +1,22 @@
+{
+  "name": "@mpmaa/preeapp",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Hand <ww1272223742@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/preeApp.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://127.0.0.1:4873/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/preeApp.test.js"
+  }
+}
