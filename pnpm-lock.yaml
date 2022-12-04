@@ -1,10 +1,21 @@
 lockfileVersion: 5.4
 
-specifiers:
-  lerna: ^6.1.0
+importers:
 
-dependencies:
-  lerna: localhost+4873/lerna/6.1.0
+  .:
+    specifiers:
+      lerna: ^6.1.0
+    dependencies:
+      lerna: localhost+4873/lerna/6.1.0
+
+  packages/preeApp:
+    specifiers:
+      '@mpmaa/utils': link:../utils
+    devDependencies:
+      '@mpmaa/utils': link:../utils
+
+  packages/utils:
+    specifiers: {}
 
 packages:
 
