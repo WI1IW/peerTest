@@ -6,6 +6,12 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/preeApp.js",
+  "peerDependencies": {
+    "@mpmaa/utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "@mpmaa/utils": "link:../utils"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
